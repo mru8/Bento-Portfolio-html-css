@@ -2,6 +2,8 @@
 
 A premium, Apple-inspired **Bento Grid** portfolio built with a focus on minimalism, fluid responsiveness, and high-quality UI showcase. This project highlights a "Human-Refined" design philosophy, contrasting raw AI output with intentional, polished craft.
 
+## ↗️Direct Link
+[Click here to visit]https://mru8.github.io/Bento-Portfolio/
 
 ## ✨ Features
 
