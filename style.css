@@ -17,6 +17,39 @@ body {
     justify-content: center;
 }
 
+.resume-btn {
+    /* 1. Reset default link styles */
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    
+    /* 2. Add "Button" dimensions */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    
+    /* 3. Colors and Typography */
+    background-color: #535a61; /* Primary blue */
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    /* 4. Smooth transition for hover effects */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+/* 5. Hover state - critical for UX */
+.resume-btn:hover {
+    background-color: #010306;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* 6. Active state (when clicked) */
+.resume-btn:active {
+    transform: translateY(0);
+}
+
 .bento-container {
     display: grid;
     gap: 20px;
