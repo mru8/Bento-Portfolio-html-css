@@ -52,8 +52,17 @@
             </div>
 
             <div class="image-crop">
-                <video src="./Images/pipevdo1.mp4" alt="Pipeline without loop & dynamic text node" class="img-desktop">
-                <video src="./Images/pipevdo2.mp4" alt="Pipeline with loop" class="img-mobile">
+                <!-- Desktop Video -->
+                <video autoplay muted loop playsinline class="img-desktop">
+                    <source src="./Images/pipevdo1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <!-- Mobile Video -->
+                <video autoplay muted loop playsinline class="img-mobile">
+                    <source src="./Images/pipevdo2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </a>
 
@@ -61,10 +70,12 @@
             <span class="label">Location</span>
             <p>📍 Based in Pune, India</p>
         </div>
-
-        <a href="https://github.com/mru8" class="tile social">GitHub</a>
+        <div class="social-wrapper">
+            <a href="https://github.com/mru8" class="tile social">GitHub</a>
         <a href="https://www.linkedin.com/in/mrunal-bhoyar-2a49402b4/" class="tile social">LinkedIn</a>
 
+        </div>
+        
     </div>
 
 </body>
