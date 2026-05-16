@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bento Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
     <div class="bento-container">
-        
+
+        <!-- HERO -->
+
         <div class="tile hero">
+
             <div class="content-wrapper">
+
                 <span class="label">Introduction</span>
+
                 <h1>Mrunal Bhoyar</h1>
+
                 <h2>Software Developer</h2>
-                <p>Building full-stack applications using React and FastAPI. 8 months of dedicated 
-            experience in developing functional, API-driven web solutions.</p>
-            </div>
-            <a href="./Portfolio resume/Mrunal Bhoyar.pdf" download="Mrunal_Bhoyar_Resume" class="resume-btn">Download Resume</a>
-        </div>
 
-        <div class="tile status">
-            <span class="label">Status</span>
-            <div class="status-badge"> 
+                <p>
+                    Building full-stack applications using React and FastAPI.
+                    8 months of dedicated experience in developing functional,
+                    API-driven web solutions.
+                </p>
+
+            </div>
+
+            <a
+                href="./Portfolio resume/Mrunal Bhoyar.pdf"
+                download="Mrunal_Bhoyar_Resume"
+                class="resume-btn"
+            >
+                Download Resume
+            </a>
+
+             <div class="status">
+
+            <!-- <span class="label">Status</span> -->
+
+            <div class="status-badge">
+
                 <span class="dot"></span>
+
                 <span>Available to join immediately</span>
+
             </div>
+
         </div>
 
+        </div>
+
+        <!-- TOOLKIT -->
+        
         <div class="tile toolkit">
+
             <span class="label">Toolkit</span>
+
             <div class="tag-container">
+
                 <span class="tag">Python</span>
                 <span class="tag">JavaScript</span>
                 <span class="tag">FastAPI</span>
@@ -41,41 +72,88 @@
                 <span class="tag">SQL</span>
                 <span class="tag">Git</span>
                 <span class="tag">GitHub</span>
+
             </div>
+
         </div>
 
-        <a href="" class="tile work">
+        <!-- SOCIAL -->
+
+        <div class="social-wrapper">
+
+            <a href="https://github.com/mru8" class="tile social">
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/mrunal-bhoyar-2a49402b4/"
+                class="tile social"
+            >
+                LinkedIn
+            </a>
+
+            
+            <div class="tile location">
+
+                <span class="label">Location</span>
+
+                <p>
+                    📍 Based in Pune, India
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <!-- STATUS -->
+
+       
+    
+        <!-- PROJECT -->
+
+        <a href="#" class="tile work">
+
             <div class="content-wrapper">
+
                 <span class="label">Project</span>
+
                 <h3>Pipeline Builder</h3>
-                <p>A full-stack visual workflow editor with drag-and-drop nodes, dynamic variable detection, and backend validation for building structured pipelines.</p>
+
+                <p>
+                    A full-stack visual workflow editor with drag-and-drop
+                    nodes, dynamic variable detection, and backend validation
+                    for building structured pipelines.
+                </p>
+
             </div>
 
             <div class="image-crop">
-                <!-- Desktop Video -->
+
                 <video autoplay muted loop playsinline class="img-desktop">
-                    <source src="./Images/pipevdo1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+
+                    <source
+                        src="./Images/pipevdo1.mp4"
+                        type="video/mp4"
+                    />
+
                 </video>
 
-                <!-- Mobile Video -->
                 <video autoplay muted loop playsinline class="img-mobile">
-                    <source src="./Images/pipevdo2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+
+                    <source
+                        src="./Images/pipevdo2.mp4"
+                        type="video/mp4"
+                    />
+
                 </video>
+
             </div>
+
         </a>
 
-        <div class="tile location">
-            <span class="label">Location</span>
-            <p>📍 Based in Pune, India</p>
-        </div>
-        <div class="social-wrapper">
-            <a href="https://github.com/mru8" class="tile social">GitHub</a>
-        <a href="https://www.linkedin.com/in/mrunal-bhoyar-2a49402b4/" class="tile social">LinkedIn</a>
+        <!-- LOCATION -->
 
-        </div>
-        
     </div>
 
 </body>
