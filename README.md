@@ -1,35 +1,23 @@
-# Bento Portfolio | Mrunal Bhoyar
-
-A premium, Apple-inspired **Bento Grid** portfolio built with a focus on minimalism, fluid responsiveness, and high-quality UI showcase. This project highlights a "Human-Refined" design philosophy, contrasting raw AI output with intentional, polished craft.
-
-## ↗️Direct Link
-[Click here to view](https://mru8.github.io/Bento-Portfolio/)
-
-## ✨ Features
-
-* **Responsive Bento Architecture**: A flexible 4-column CSS Grid that intelligently stacks into a single column for mobile devices.
-* **Dual-Perspective Project Tiles**: 
-    * **Desktop**: Uses a "Macro Crop" (`object-position`) to focus on refined UI details.
-    * **Mobile**: Switches to a vertical "Comparison Stack" to tell a story through scrolling.
-* **Live Status Indicator**: A pulsing CSS animation signaling "Available for immediate start."
-* **Dynamic Hero Section**: Features a subtle "MB" background initial and integrated location/portfolio links to maximize space efficiency.
-* **Performance First**: Zero dependencies. Built with pure HTML5 and CSS3 for instant load times.
-
-
 ## 🛠️ Technical Stack
 
-* **Structure**: HTML5 Semantic Markup
-* **Styling**: CSS3 (Custom Properties, Grid, Flexbox)
-* **Animations**: CSS Keyframes & Cubic-Bezier Transitions
-* **Typography**: System-native sans-serif stack (San Francisco/Segoe UI)
+- **Frontend Core**: HTML5 Semantic Markup & CSS3
+- **Layout Engines**: CSS Grid Architecture & Flexbox Alignment
+- **Styling Details**: CSS Custom Properties (Variables), Border-radius card masking, and Custom Font Stack (System-native sans-serif)
+- **Backend & Tooling Ecosystem (Showcased)**: Python, JavaScript, FastAPI, React, HTML, CSS, SQL, Git, GitHub
 
+## 📸 Portfolio Structure & Layout Showcase
 
-## 📸 Design Showcase
+### 1. Introduction & Profile Card
+Features a clean typographic hierarchy displaying identity (**Mrunal Bhoyar**), core role (**Software Developer**), and a brief professional summary focusing on full-stack application development using React and FastAPI. Includes an integrated "Download Resume" action button and an active availability status marker.
 
-### 1. The "Human vs. AI" Tile
-Designed to showcase attention to detail. On desktop, the card is tilted and zoomed in on the "Refined" version to highlight typography and shadow work.
+### 2. Specialized Toolkit Tile
+A compact, highly scannable tag-based layout housing core competencies. It groups modern web technologies and developer utilities into a unified, visually balanced cloud of pills.
 
-### 2. The Integrated Hero
-By moving the location badge into the main Introduction tile, the grid remains tight and avoids "empty space" issues.
+### 3. Identity & Location Badges
+- **Quick Links**: Dedicated, high-contrast, rounded action tiles providing direct access to GitHub and LinkedIn profiles.
+- **Geographic Badge**: An integrated location card featuring a marker pinning current placement (**Based in Pune, India**).
 
-
+### 4. Interactive Project Deep-Dive: Pipeline Builder
+A full-width, immersive case study container focusing on an interactive drag-and-drop workflow builder application. It features twin sub-tiles highlighting:
+- **Linear Pipeline & Dynamic Handles**: Demonstrates loop-free workflow execution and real-time variable parsing (`{{variable}}`) with rich dynamic UI preview panels.
+- **Real-Time Loop Detection**: Highlights a custom backend validation engine designed to block cyclic execution graphs, showing multi-node relationship previews directly within an elegant dark-framed interface container.
