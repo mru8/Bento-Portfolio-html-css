@@ -1,3 +1,6 @@
+## Direct Link
+[View Live Portfolio](https://mru8.github.io/Bento-Portfolio-html-css/)
+
 ## 🛠️ Technical Stack
 
 - **Frontend Core**: HTML5 Semantic Markup & CSS3
