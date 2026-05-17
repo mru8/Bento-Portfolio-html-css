@@ -122,9 +122,7 @@
                 <h3>Pipeline Builder</h3>
 
                 <p>
-                    A full-stack visual workflow editor with drag-and-drop
-                    nodes, dynamic variable detection, and backend validation
-                    for building structured pipelines.
+                    An interactive drag-and-drop workflow builder featuring dynamic variable parsing, centralized state management, and real-time backend DAG validation to ensure loop-free execution.
                 </p>
 
             </div>
@@ -132,8 +130,8 @@
             <div class="project-showcase">
                 <div class="video-card">
                     <div class="video-info">
-                        <h4>Video 1</h4>
-                        <p>Without any loop</p>
+                        <h4>Linear Pipeline & Dynamic Handles</h4>
+                        <p>Shows a loop-free workflow execution. Watch as typing {{variable}} in the smart text node dynamically generates a new input handle in real-time. On submission, the backend verifies the structure and returns the exact node and edge metrics.</p>
                     </div>
                     <video autoplay muted loop playsinline class="project-video">
                         <source
@@ -144,8 +142,8 @@
                 </div>
                 <div class="video-card">
                     <div class="video-info">
-                        <h4>Video 2</h4>
-                        <p>With loop</p>
+                        <h4>Real-Time Loop Detection</h4>
+                        <p>Demonstrates the validation engine handling a cyclic graph. When an invalid loop is created between nodes, hitting submit triggers an immediate backend warning that blocks execution and guides the user to fix the recursion.</p>
                     </div>
                     <video autoplay muted loop playsinline class="project-video">
                         <source
