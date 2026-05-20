@@ -27,7 +27,7 @@ body {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1.6fr 0.8fr 1fr;
-    grid-template-rows: 35vh 60vh;
+    grid-template-rows: auto auto;
     grid-template-areas:
         "intro toolkit social"
         "work work work";
@@ -79,15 +79,24 @@ body {
     pointer-events: none;
     }
 
-.work {
+.work{
     grid-area: work;
-    height: 60vh;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+    /* .work {
+    grid-area: work;
+    min-height: 70vh;
+    height: auto;
     text-decoration: none;
     color: inherit;
     display: flex;
     flex-direction: column;
     overflow: hidden; 
-    }
+    } */
 
 .work:hover {
     border-color: #6366f1;
@@ -95,52 +104,77 @@ body {
     }
 
 .project-showcase{
-    margin-top: 22px;
-    display: flex;
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
-    height: 100%;
-    min-height: 0;
+    width: 100%;
+    /* align-items: stretch; */
 }
 
-.video-card{
-    flex: 1;
+/* .video-card{
     display: flex;
     flex-direction: column;
-    gap: 12px;
     padding: 14px;
     border-radius: 24px;
-    background: linear-gradient(
-        180deg,
-        #fafafa 0%,
-        #f3f4f6 100%
-    );
-
+    background: #fafafa;
     border: 1px solid rgba(0,0,0,0.06);
-    transition: 
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
-    }
-
+    overflow: hidden;
+    } */
+.video-card{
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
 .video-card:hover {
-    transform: translateY(-4px);
-    border-color: #d1d5db;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* .video-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+} */
+.video-info{
+    padding-top: 14px;
 }
 
 .video-info h4{
     margin: 0 0 6px;
-    font-size: 1rem;
-    color: var(--text-main);
+    font-size: 1.1rem;
+    /* line-height: 1.2;
+    color: var(--text-main); */
 }
 
 .video-info p{
+    margin: 0;
+    /* max-width: 42ch; */
     font-size: 0.92rem;
     line-height: 1.45;
     color: var(--text-sub);
 }
 
-.project-video{
+.feature-pills{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.feature-pills span{
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.06);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #555;
+}
+
+/* .project-video{
     flex: 1;
     display: block;
     width: 100%;
@@ -153,8 +187,26 @@ body {
     transition: 
         transform 0.4s ease;
         box-shadow: 0.3s ease;
+} */
+
+.project-video{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 18px;
+    background: black;
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+.project-tag{
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #f1f1f5;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #555;
+}
 .video-card:hover .project-video {
     transform: scale(1.02);
     }
