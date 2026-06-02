@@ -1,26 +1,109 @@
-## Direct Link
-[View Live Portfolio](https://mru8.github.io/Bento-Portfolio-html-css/)
+# Personal Portfolio Website
 
-## 🛠️ Technical Stack
+A modern, responsive portfolio website built to showcase my projects, technical skills, and professional journey as a Software Developer.
 
-- **Frontend Core**: HTML5 Semantic Markup & CSS3
-- **Layout Engines**: CSS Grid Architecture & Flexbox Alignment
-- **Styling Details**: CSS Custom Properties (Variables), Border-radius card masking, and Custom Font Stack (System-native sans-serif)
-- **Backend & Tooling Ecosystem (Showcased)**: Python, JavaScript, FastAPI, React, HTML, CSS, SQL, Git, GitHub
+## 🌐 Live Demo
 
-## 📸 Portfolio Structure & Layout Showcase
+[View Portfolio](https://mru8.github.io/Bento-Portfolio-html-css/)
 
-### 1. Introduction & Profile Card
-Features a clean typographic hierarchy displaying identity (**Mrunal Bhoyar**), core role (**Software Developer**), and a brief professional summary focusing on full-stack application development using React and FastAPI. Includes an integrated "Download Resume" action button and an active availability status marker.
+## 📌 Overview
 
-### 2. Specialized Toolkit Tile
-A compact, highly scannable tag-based layout housing core competencies. It groups modern web technologies and developer utilities into a unified, visually balanced cloud of pills.
+This portfolio serves as my personal space on the web, highlighting my development experience, featured projects, technical expertise, and professional background.
 
-### 3. Identity & Location Badges
-- **Quick Links**: Dedicated, high-contrast, rounded action tiles providing direct access to GitHub and LinkedIn profiles.
-- **Geographic Badge**: An integrated location card featuring a marker pinning current placement (**Based in Pune, India**).
+The website is designed with a clean Bento Grid-inspired layout to provide recruiters, developers, and visitors with a fast and intuitive browsing experience.
 
-### 4. Interactive Project Deep-Dive: Pipeline Builder
-A full-width, immersive case study container focusing on an interactive drag-and-drop workflow builder application. It features twin sub-tiles highlighting:
-- **Linear Pipeline & Dynamic Handles**: Demonstrates loop-free workflow execution and real-time variable parsing (`{{variable}}`) with rich dynamic UI preview panels.
-- **Real-Time Loop Detection**: Highlights a custom backend validation engine designed to block cyclic execution graphs, showing multi-node relationship previews directly within an elegant dark-framed interface container.
+## ✨ Features
+
+- Responsive Bento-style layout
+- Professional introduction section
+- Skills and technology showcase
+- Featured project highlights
+- Resume download functionality
+- GitHub and LinkedIn integration
+- Availability status indicator
+- Clean and minimal user interface
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+
+### Design & Layout
+- CSS Grid
+- Flexbox
+- CSS Variables
+- Responsive Design Principles
+
+### Developer Tools & Technologies Showcased
+- Python
+- JavaScript
+- React
+- FastAPI
+- SQL
+- Git
+- GitHub
+
+## 🎯 Goals Behind This Project
+
+The primary objective of this portfolio was to create a professional online presence that:
+
+- Showcases projects effectively
+- Highlights technical skills at a glance
+- Maintains a clean and modern aesthetic
+- Provides easy access to professional profiles and resume
+- Delivers a smooth experience across devices
+
+## 📂 Project Structure
+
+```text
+├── index.html
+├── style.css
+├── Images/
+├── Portfolio Resume/
+└── README.md
+```
+
+## 🚀 Featured Project
+
+### Pipeline Builder
+
+An interactive drag-and-drop workflow builder designed to create and validate execution pipelines.
+
+#### Highlights
+
+- Dynamic variable parsing
+- Drag-and-drop node architecture
+- Centralized state management
+- Real-time DAG validation
+- Cycle detection for loop-free execution
+- React + FastAPI architecture
+
+## 📸 Preview
+
+Add screenshots or GIFs here.
+
+```md
+![Portfolio Preview](Images/portfolio-preview.png)
+```
+
+## 🔗 Connect With Me
+
+- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+
+## 📄 Resume
+
+The latest version of my resume can be downloaded directly from the portfolio website.
+
+## 🔮 Future Improvements
+
+- Dark/Light mode toggle
+- Additional project case studies
+- Contact form integration
+- Blog section
+- Project filtering and categorization
+
+## ⭐ Feedback
+
+Feedback, suggestions, and contributions are always welcome. Feel free to open an issue or connect with me on LinkedIn.
